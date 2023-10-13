@@ -31,7 +31,10 @@ client.on(Events.InteractionCreate, async interaction => {
 
     await interaction.reply(`The sum is ${num1 + num2}`);
   }
+  if (interaction.commandName === "blamedev") {
 
+    await interaction.reply(`<@816361535814500432> did it no one else.`);
+  }
 });
 
 client.login(token);
