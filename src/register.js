@@ -27,7 +27,12 @@ const commands = [
 			type: ApplicationCommandOptionType.Number,
 			required: true
 		},
+
 	],
+  },
+  {
+	name: "blamedev",
+	description: "A command that says blame dev",
   },
 ];
 
